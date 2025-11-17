@@ -1,7 +1,7 @@
 # StaticDefaultRouting
 This project demonstrates my ability to design, configure, and verify static and default routing for both IPv4 and IPv6 in a multi-router environment. The lab uses two Cisco 4331 routers, two switches, and end devices to build a functional routed network supporting dual-stack (IPv4 + IPv6) communication.
 
-Objectives
+# Objectives
 
 The goal of this lab was to:
 
@@ -16,7 +16,7 @@ Configure static routes, default routes, and floating static routes for both IPv
 Validate connectivity using ping, traceroute, and routing-table verification
 _________________
 
-Topology
+# Topology
 
 
 The network consists of:
@@ -34,7 +34,7 @@ Dual-stack IP addressing (IPv4 + IPv6)
 The topology includes multiple routed subnets and loopback interfaces used to simulate additional networks.
 _____________________
 
-Key Configurations Performed
+# Key Configurations Performed
 1. Basic Router & Switch Setup
 
 Assigned hostnames
@@ -115,7 +115,7 @@ When shutting down an interface, the floating routes became active as expected, 
 
 _________________________________
 
-Skills Demonstrated
+# Skills Demonstrated
 
 ✔ IPv4 & IPv6 subnetting and addressing
 ✔ Cisco IOS configuration
@@ -125,7 +125,7 @@ Skills Demonstrated
 ✔ Routing table analysis
 ✔ Network troubleshooting (ping, traceroute, CDP)
 ________________________________
-Technologies Used
+# Technologies Used
 
 Cisco 4331 Routers
 
@@ -141,7 +141,7 @@ Routing table verification tools
 
 ________________________________
 
-This lab demonstrates real-world routing fundamentals, including:
+# This lab demonstrates real-world routing fundamentals, including:
 
 Designing networks with redundancy
 
