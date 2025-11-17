@@ -14,9 +14,10 @@ Configure IPv4 and IPv6 addressing across router interfaces and loopbacks
 Configure static routes, default routes, and floating static routes for both IPv4 and IPv6
 
 Validate connectivity using ping, traceroute, and routing-table verification
+_________________
 
 Topology
-_________
+
 
 The network consists of:
 
@@ -31,9 +32,7 @@ Multiple interfaces (GigabitEthernet, Loopbacks)
 Dual-stack IP addressing (IPv4 + IPv6)
 
 The topology includes multiple routed subnets and loopback interfaces used to simulate additional networks.
-
-
-Lab+4a+-+Configure+IPv4+and+IPv…
+_____________________
 
 Key Configurations Performed
 1. Basic Router & Switch Setup
@@ -62,10 +61,6 @@ ipv6 address 2001:db8:acad:2::1/64
 no shutdown
 
 
-Addressing followed the IP table provided in the lab.
-
-
-Lab+4a+-+Configure+IPv4+and+IPv…
 
 3. IPv4 Static Routing
 
@@ -84,7 +79,6 @@ ip route 0.0.0.0 0.0.0.0 172.16.1.2
 ip route 0.0.0.0 0.0.0.0 192.168.1.2 80
 
 
-Lab+4a+-+Configure+IPv4+and+IPv…
 
 4. IPv6 Static Routing
 
@@ -103,9 +97,8 @@ ipv6 route ::/0 2001:db8:acad:2::1
 ipv6 route ::/0 2001:db8:acad:1::1 80
 
 
-Lab+4a+-+Configure+IPv4+and+IPv…
-
 5. Routing Verification
+____________________________
 
 Used:
 
@@ -120,8 +113,7 @@ Traceroutes to loopbacks demonstrating route preference
 
 When shutting down an interface, the floating routes became active as expected, validating redundancy behavior.
 
-
-Lab+4a+-+Configure+IPv4+and+IPv…
+_________________________________
 
 Skills Demonstrated
 
@@ -132,7 +124,7 @@ Skills Demonstrated
 ✔ Dual-stack network design
 ✔ Routing table analysis
 ✔ Network troubleshooting (ping, traceroute, CDP)
-
+________________________________
 Technologies Used
 
 Cisco 4331 Routers
@@ -147,7 +139,7 @@ Link-local addressing
 
 Routing table verification tools
 
-What This Project Shows
+________________________________
 
 This lab demonstrates real-world routing fundamentals, including:
 
