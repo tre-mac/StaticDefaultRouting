@@ -75,7 +75,9 @@ Floating static default route (AD = 80) via G0/0/1
 Example:
 
 ip route 10.2.0.0 255.255.255.0 192.168.1.2
+
 ip route 0.0.0.0 0.0.0.0 172.16.1.2
+
 ip route 0.0.0.0 0.0.0.0 192.168.1.2 80
 
 ![Example Image](projectdetails/R1_route_table.png)
