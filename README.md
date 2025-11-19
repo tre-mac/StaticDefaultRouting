@@ -78,6 +78,8 @@ ip route 10.2.0.0 255.255.255.0 192.168.1.2
 ip route 0.0.0.0 0.0.0.0 172.16.1.2
 ip route 0.0.0.0 0.0.0.0 192.168.1.2 80
 
+![Example Image](projectdetails/R1_route_table.png)
+
 
 
 4. IPv6 Static Routing
