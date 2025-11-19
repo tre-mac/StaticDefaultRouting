@@ -82,7 +82,9 @@ ip route 0.0.0.0 0.0.0.0 192.168.1.2 80
 
 ![Example Image](projectdetails/R1_route_table.png)
 
+![Example Image](projectdetails/ipv4staticfloat.png)
 
+![Example Image](projectdetails/ipv4traceroute.png)
 
 4. IPv6 Static Routing
 
