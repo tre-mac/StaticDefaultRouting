@@ -99,8 +99,19 @@ Floating static default route with AD = 80
 Example:
 
 ipv6 route 2001:db8:acad:10::/64 2001:db8:acad:1::1
+
 ipv6 route ::/0 2001:db8:acad:2::1
+
 ipv6 route ::/0 2001:db8:acad:1::1 80
+
+![Example Image](projectdetails/R2_ipv6.png)
+
+![Example Image](projectdetails/ipv6float.png)
+
+![Example Image](projectdetails/ipv6floattracer.png)
+
+![Example Image](projectdetails/ipv6traceroute1.png)
+![Example Image](projectdetails/ipv6tracerroute2.png)
 
 
 5. Routing Verification
