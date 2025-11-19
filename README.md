@@ -104,7 +104,7 @@ ipv6 route ::/0 2001:db8:acad:2::1
 
 ipv6 route ::/0 2001:db8:acad:1::1 80
 
-![Example Image](projectdetails/R2_ipv6.png)
+![Example Image](projectdetails/R2_ip6.png)
 
 ![Example Image](projectdetails/ipv6float.png)
 
